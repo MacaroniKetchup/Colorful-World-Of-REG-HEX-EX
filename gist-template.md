@@ -21,7 +21,7 @@ Which can be used in languages such as CSS and Javascript alike!
 
 ## Regex Components
 
-                                                            Our HEX Value REGEX:   `/^#?([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$/`
+    Our HEX Value REGEX:   `/^#?([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$/`
       
 ### Anchors
 
@@ -158,5 +158,5 @@ I'm currently a beginner in learning coding, who is currently enrolled in a Full
 
 You can also checkout my [Portfolio](https://macaroniketchup.github.io/My-Portfolio/) to view some of the projects I've worked on in my bootcamp!
 
-                                                                                        HAPPY CODING
+    HAPPY CODING
 ![Anime Hacker](./image/anime-hacking.gif)
