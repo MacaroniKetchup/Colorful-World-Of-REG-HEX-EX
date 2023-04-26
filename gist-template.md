@@ -146,8 +146,17 @@ Now if we look at our `const regexHexValid = /^#?([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})
 
  * Finally, we look at `([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})` in our expression. Our first five `console.logs` return `true`  because the fits all of the five other requrements which is [Quantifiers](#quantifiers), [Grouping Constructs](#grouping-constructs), [Bracket Expressions](#bracket-expressions), [Character Classes](#character-classes), and [The OR Operator](#the-or-operator). This is because the first five HEX values are Hexidecimal values that contain Hexidecimal characters that are `[A-Fa-f]` and contain digits `[0-9]` and are either `{6}` OR (`|`) `{3}` characters long.
 
- * Why did the sixth and final `console.log` return as `false`? Thats because it is `5` characters long and contains the a letter `g` and `Z` in the value. Which does not fit our REGEX HEX Value expression `/^#?([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$/`
+ * Why did the sixth and final `console.log` return as `false`? Thats because it is `5` characters long and contains the a letter `g` and `Z` in the value. Which does not fit our REGEX HEX Value expression `/^#?([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$/`.
+
+ * Thank you for reading my REGEX Tutorial and hope this is able to help give you as the read a better grasp on understanding how a REGEX Expression can be used to validate a HEX Value with Hexadecimal characters and Numbers! Not only can you use the information you learned here for HEX Values, you could take what you learned in this tutorial and also learn to use REGEX to match things such as Username, Emails, and Passwords!
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+I'm currently a beginner in learning coding, who is currently enrolled in a Full-Stack Web Development Coding Bootcamp! I hope to learn as much as I can as I continue to expand my new knowledge on Web Development and hope to eventually make a career shift into the Web Development career feild! 
+
+[Github Reposetories](https://github.com/MacaroniKetchup?tab=repositories)
+
+You can also checkout my [Portfolio](https://macaroniketchup.github.io/My-Portfolio/) to view some of the projects I've worked on in my bootcamp!
+
+                                                                                        HAPPY CODING
+![Anime Hacker](./image/anime-hacking.gif)
